@@ -14,6 +14,7 @@ import java.util.Objects;
 @ToString
 @RequiredArgsConstructor
 @Entity
+@Table(name = "form")
 public class Form {
 
     @Id
