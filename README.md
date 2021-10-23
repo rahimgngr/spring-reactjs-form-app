@@ -1,5 +1,8 @@
-# spring-reactjs-form-app
-It is a simple form app using PostgreSQL database.
+# About Project
+It is a simple form app which is using PostgreSQL database.
+You can add info about user and see under that form.
+
+
 
 ## Installation
 * First go to terminal and use **docker-compose -f docker-compose.yml up -d** under resources directory.
