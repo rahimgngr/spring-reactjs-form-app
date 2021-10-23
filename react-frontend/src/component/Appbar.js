@@ -4,7 +4,6 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Appbar() {
   return (
@@ -17,9 +16,7 @@ export default function Appbar() {
             color="inherit"
             aria-label="open drawer"
             sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
+          ></IconButton>
           <Typography
             variant="h6"
             noWrap
